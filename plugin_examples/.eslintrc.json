@@ -7,29 +7,6 @@
   "parserOptions": {
     "ecmaVersion": 2017
   },
-  "plugins": [
-    "this"
-  ], // eslint-plugin-this
-  // "extends": "eslint:recommended",
-  "rules": {
-    "no-console": "off",
-    "this/no-this": "error",
-    "indent": [
-      "error",
-      2
-    ],
-    "no-unused-vars": "off",
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
-  }
+  "extends": "delta", // eslint-config-delta
+  "rules": {}
 }
