@@ -1,4 +1,5 @@
 {
+  "root": true,
   "env": {
     "node": true,
     "es6": true
@@ -6,13 +7,18 @@
   "parserOptions": {
     "ecmaVersion": 2017
   },
-  "extends": "eslint:recommended",
+  "plugins": [
+    "this"
+  ], // eslint-plugin-this
+  // "extends": "eslint:recommended",
   "rules": {
     "no-console": "off",
+    "this/no-this": "error",
     "indent": [
       "error",
       2
     ],
+    "no-unused-vars": "off",
     "linebreak-style": [
       "error",
       "unix"
