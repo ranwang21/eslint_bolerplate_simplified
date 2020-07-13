@@ -1,8 +1,8 @@
 const obj = {
-  color: 'red',
-  getColor() {
-    return this.color()
-  },
-}
+	color: "red",
+	getColor() {
+		// return this.color()
+	}
+};
 
-obj.getColor()
+obj.getColor();

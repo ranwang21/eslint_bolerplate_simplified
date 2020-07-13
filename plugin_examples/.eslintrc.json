@@ -7,6 +7,9 @@
   "parserOptions": {
     "ecmaVersion": 2017
   },
-  "extends": "delta", // eslint-config-delta
+  // look for the ran-personal-plugin and use its configuration setting named recommended
+  "extends": [
+    "plugin:ran-personal-plugin/recommended"
+  ],
   "rules": {}
 }
