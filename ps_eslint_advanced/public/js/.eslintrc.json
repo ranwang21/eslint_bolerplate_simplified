@@ -3,6 +3,17 @@
     "browser": true,
     "es6": true
   },
+  "parser": "babel-eslint",
+  // "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "rules": {
     "no-console": "error"
   }
